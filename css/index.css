@@ -45,7 +45,7 @@
     margin: 0;
     border: 1px solid;
     padding: 5px 15px;
-    color: rgb(160, 159, 159);
+    color: rgb(136, 135, 135) !important;
 }
 
 .contact-link {
