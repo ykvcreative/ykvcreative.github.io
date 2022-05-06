@@ -44,7 +44,8 @@
 .contract-text-link{
     margin: 0;
     border: 1px solid;
-    padding: 2px 15px;
+    padding: 5px 15px;
+    color: rgb(160, 159, 159);
 }
 
 .contact-link {
@@ -56,15 +57,16 @@
 /* WE MAKE BUSSINESS */
 
 .big-background-black {
-    height: 850px; 
+    height: 100vh; 
     background-color: #0F0F11;
+    display: flex;
+    align-items: center;
 }
 
 .background {
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 130px;
     padding-top: 170px;
     margin-top: 0;
     text-align: justify;
@@ -80,11 +82,11 @@
 
 .scroll {
     width: 1080px;
-    padding-left: 132px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
     color: #B0BBBF;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -96,7 +98,6 @@
 }
 
 .problem-text-p1 {
-    font-weight: 500;
     text-align: center;
 }
 
@@ -106,6 +107,7 @@
 }
 
 .problem-text-p3 {
+    font-size: 17px;
     font-weight: 400;
     text-align: center;
 }
@@ -119,26 +121,21 @@
 
 .consultancy {
     width: 1080px;
-    height: 395px;
+    height: 480px;
     margin: 70px auto 100px auto;
-     text-align: center;
     display: grid;
     background-color: #FFFFFF;
 }
 
-.fw-normal {
-    margin-bottom: 0;
-}
-
 .consultancy-text {
-    font-weight: 18pt;
+    padding-top: 10px;
     display: block;
 }
 
 .consultancy-container{
     display: flex;
     align-items: center;
-    padding: 0 35px;
+    padding: 0 40px;
 }
 
 .content{
@@ -147,6 +144,16 @@
 
 .fw-bold{
     padding: 60px 30px;
+}
+
+.services-title{
+    display: flex;
+    column-gap: 10px;
+}
+
+.services-title b{
+    margin: auto;
+    font-weight: 700;
 }
 
 
@@ -235,19 +242,27 @@
     padding: 80px 0 150px 0;
 }
 
+.footer-black-message{
+    padding-left: 0;
+}
+
 .footer-black-message p {
     font-size: 50px;
-    margin-left: -10px;
+    line-height: 1;
 }
 
 .footer-black-contact {
-    margin: auto -10px auto 0;
+    padding: 10px 100px;
+}
+
+.footer-black-contact p {
+    padding-right: 10px;
 }
 
 .button-contact-us {
     font-weight: 700;
     border: 0;
-    padding: 15px 25px;
+    padding: 20px 30px;
     background-color: var(--clr-gray2);
 }
 
@@ -314,7 +329,7 @@
     }
 
     .contract-text-link{
-        padding: 2px 10px;
+        padding: 5px 10px;
     }
 
     .contact {
@@ -344,7 +359,7 @@
 
     .scroll {
         width: 80%;
-        margin-left: 70px;
+        margin-left: 0;
         margin-top: 30px;
         padding-left: 0;
     }
@@ -353,7 +368,7 @@
 
     .creative-problem-solving {
         width: 95%;
-        padding: 0 20px 50px 20px;
+        padding: 0 10px 70px 10px;
     }
 
     /* services */
@@ -377,7 +392,11 @@
     }
 
     .fw-bold {
-        padding: 30px 10px;
+        padding: 20px 30px;
+    }
+
+    .services-title {
+        padding: 0 60px;
     }
 
     /* sobre nos */
@@ -460,6 +479,10 @@
         flex-direction: column;
     }
 
+    .footer-black-contact{
+        padding: 0;
+    }
+
     .footer-social {
         width: 100%;
         padding: 20px 20px 20px 0;
@@ -491,7 +514,7 @@
     }
 
     .contract-text-link{
-        padding: 2px 10px !important;
+        padding: 5px 10px !important;
     }
 
     .contact {
@@ -511,7 +534,6 @@
     }
 
     .background {
-        width: 70%;
         padding-top: 50px;
         padding-left: 35px;
         margin: 0 auto;
@@ -520,7 +542,7 @@
 
     .scroll {
         width: 80%;
-        margin-left: 35px;
+        margin-left: 5px;
         margin-top: 30px;
     }
 
@@ -607,6 +629,10 @@
         flex-direction: column;
     }
 
+    .footer-black-contact{
+        padding: 0;
+    }
+
     .footer-social {
         width: 100%;
         padding: 20px 20px 20px 0;
@@ -638,7 +664,7 @@
     }
 
     .contract-text-link{
-        padding: 2px 10px !important;
+        padding: 5px 10px !important;
     }
 
     .contact {
@@ -653,16 +679,16 @@
     }
 
     .background {
-        width: 70%;
+        width: 90%;
         padding-top: 50px;
         margin: 0 auto;
-        font-size: 70pt;
+        font-size: 60pt;
         padding-left: 25px;
     }
 
     .scroll {
         width: 70%;
-        margin-left: 55px;
+        margin-left: 0;
         margin-top: 30px;
     }
 
@@ -671,6 +697,10 @@
     .creative-problem-solving {
         width: 95%;
         padding: 0 20px 50px 20px;
+    }
+
+    .problem-text{
+        padding: 0 50px;
     }
     
     .container .consultancy .consultancy-container .consultancy-text .row{
@@ -716,6 +746,10 @@
 
     .content{
         margin-bottom: -80px;
+    }
+
+    .container-msg-institucional{
+        margin-top: 200px !important;
     }
 
     .card-institucional-img-image {
@@ -770,13 +804,19 @@
     /* background gray */
 
     .background {
-        width: 80%;
+        width: 90%;
         padding-top: 70px;
     }
 
     .scroll {
-        width: 80%;
-        padding-left: 110px;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    /* services */
+
+    .fw-bold{
+        padding: 50px 10px;
     }
 
     /* sobre nos */
@@ -796,6 +836,10 @@
 
     .card-institucional {
         height: 100%;
+    }
+
+    .card-institucional-text{
+        padding: 25px 40px;
     }
 
     .card-institucional-img-image {
