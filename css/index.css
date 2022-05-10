@@ -49,30 +49,9 @@
     position: relative;
 }
 
-.contact .nav-link::before{
-    content: '';
-    position: absolute;
-    top: 0%;
-    left: 0%;
-
-    width: 110%;
-    height: 0%;
-
-    transform: translate(-5%) rotate(90deg);
-    
-    background-color: #0F0F11;
-
-    z-index: -1;
-
-    transition: .7s ease;
-}
-
-.contact .nav-link:hover::before{
-    height: 400%;
-}
-
 .contact .nav-link:hover{
     color: rgb(214, 214, 214) !important; 
+    background-color: #0F0F11;
 }
 
 .contract-text-link{
@@ -144,14 +123,14 @@
 }
 
 .problem-text-p3 {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
     text-align: center;
 }
 
 .creative-problem-solving{
     width: 1080px;
-    padding: 0 100px 50px 100px;
+    padding: 0 150px 50px 150px;
     border-bottom: 1.5px solid var(--clr-gray2);
 }
 /* CONSULTANCY */
@@ -165,6 +144,7 @@
 }
 
 .consultancy-text {
+    font-size: 15px;
     padding-top: 10px;
     display: block;
 }
@@ -180,7 +160,7 @@
 }
 
 .fw-bold{
-    padding: 60px 30px;
+    padding: 60px 36px;
 }
 
 .services-title{
@@ -239,18 +219,18 @@
 }
 
 .card-institucional-text h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
 }
 
 .card-institucional-p1 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 .card-institucional-p2 {
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .button-learn-more {
@@ -262,7 +242,7 @@
 }
 
 .button-learn-more:hover{
-    box-shadow: 0px 0px 10px #353535;
+    box-shadow: 0px 0px 7px 0.5px #353535;
     transition: .2s;
 }
 
@@ -312,6 +292,11 @@
     background-color: #929292;
 }
 
+#company-copy{
+    font-weight: 500;
+    color: #848484;
+}
+
 .footer-social {
     width: 1080px;
     margin: 0 auto;
@@ -319,16 +304,11 @@
     padding: 20px 0 20px 0;
     flex-direction: row;
     flex-basis: auto;
-    justify-content: end;
+    justify-content: center;
     flex-grow: 1;
     align-items: center;
     list-style-type: none;
     list-style: none;
-}
-
-#company-copy{
-    align-self: center;
-    margin-right: 30%;
 }
 
 .social-link {
@@ -345,6 +325,7 @@
 
 .social-icon-list {
     margin-left: 10px;
+    display: none;
 }
 
 .social-icon-list i {
@@ -531,9 +512,6 @@
         align-items: flex-end;
     }
 
-    #company-copy{
-        margin-right: 30%;
-    }
 }
 
 @media (min-width: 540px) and (max-width: 719px) {
@@ -683,9 +661,6 @@
         width: 100%;
         padding: 20px;
         align-items: flex-end;
-    }
-    #company-copy{
-        margin-right: 39%;
     }
 }
 
@@ -846,10 +821,6 @@
         padding: 20px;
         align-items: flex-end;
     }
-
-    #company-copy {
-        margin-right: 55%;
-    }
 }
 
 @media (min-width: 1001px) and (max-width: 1200px) {
@@ -908,9 +879,6 @@
 
     .footer-social {
         width: 960px;
-    }
-    #company-copy {
-        margin-right: 25%;
     }
 }
 
